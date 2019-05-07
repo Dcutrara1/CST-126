@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$username = 'dscutrar';
-$password = 'Winner#2';
-$database = 'blog';
+$host = 'us-cdbr-iron-east-02.cleardb.net';
+$username = 'bd4f97ffd852e1';
+$password = '6b182168';
+$database = 'heroku_91ac43a3f6024e6';
 
 $con = mysqli_connect($host, $username, $password, $database);
 if(mysqli_error($con))

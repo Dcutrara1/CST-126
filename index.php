@@ -5,7 +5,7 @@
 </head>
 
 <body>
-	<form action="/Blog/Controllers/Registration.php" method="post">
+	<form action="Controllers/Registration.php" method="post">
 		
 		<table style="border: 0px;">
 			<tr style="background: #cccccc;">

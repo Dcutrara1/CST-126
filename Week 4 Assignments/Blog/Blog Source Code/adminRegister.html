@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+ Project name and version: Blog.version_4
+ Module name and version: Module 4.version_1
+ Programmer Name: Daniel Cutrara
+ Date: 5/26/2019
+ Synopsis: Create an Azure account and upload all files to your account. 
+ Interface for the blog administrator to categorize (tag) and remove posts.
+ -->
+ 
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+
+<body>
+	<form action="adminRegistration.php" method="post">
+		
+		<table style="border: 0px;">
+			<tr style="background: #cccccc;">
+			</tr>
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" name="FirstName" id="FirstName" size="20"
+    			maxlength="20" /></td>
+    		</tr>
+    
+    		<tr>
+    			<td>Last Name</td>
+    			<td><input type="text" name="LastName" id="LastName" size="20"
+        		maxlength="20" /></td>
+ 			</tr>
+ 			
+ 			<tr>
+    			<td>Email (Username)</td>
+    			<td><input type="email" name="Email" id="Email" size="20"
+        		maxlength="20" /></td>
+ 			</tr>
+ 			
+ 			<tr>
+    			<td>Password</td>
+    			<td><input type="password" name="Password" id="Password" size="20"
+        		maxlength="20" /></td>
+ 			</tr>
+				
+			<tr>
+				<td>Admin Key</td>
+				<td><input type="text" name="AdminKey" size="10"></td>
+			</tr>
+        
+    		<tr>
+        		<td colspan="1" style="text-align: center;">
+    			<input type="submit" name="CreateAdmin" value="Create Admin User"/></td>
+    			<td><input type="button" value="Home Page" onclick="location='index.html'" />
+    			<input type="button" value="Admin User Login" onclick="location='adminLogin.html'" />
+    			</td>
+    		</tr>
+		</table>
+	</form>
+</body>
+</html>

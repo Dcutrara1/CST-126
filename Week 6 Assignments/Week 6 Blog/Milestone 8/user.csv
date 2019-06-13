@@ -1,0 +1,7 @@
+id,firstname,lastname,email,password,admin
+1,John,Heart,broken@gmail.com,test,0
+2,Steve,Jones,stevejones@gmail.com,test1,0
+3,John,Smith,johnsmith@gmail.com,test2,0
+4,Daniel,Cutrara,cutrarads@gmail.com,test3,1
+11,Steve,Jobs,apple@gmail.com,test5,1
+12,Sam,Gold,gold@gmail.com,test6,0

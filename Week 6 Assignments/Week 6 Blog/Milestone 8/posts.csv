@@ -1,0 +1,5 @@
+id,userid,title,author,textarea
+2,2,"Web Development","Steve Jones","This class teaches you how to code a web application connected to a database. You are learning the same skills that you learn in the industry."
+3,3,"GCU Campus","John Smith","GCU has a great campus. Students enjoy living on campus. "
+4,4,"IT Jobs","Daniel Cutrara","There are various IT positions in the industry. Examples include programming, help desk, pc support and others. "
+24,4,"New Post",Me,"Test this thing"
